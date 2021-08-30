@@ -17,7 +17,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
     <nav class="navbar sticky-top bg-info navbar-dark navbar-expand-md">
         <div class="container">
             <a href="#top" class="navbar-brand"><img src="Images/logo.png"
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about">O nama</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#news">News</a>
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="#log_in">Log In</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Kontakt</a>
                     </li>
 
                     <div class="nav-social">
@@ -52,7 +52,7 @@
         </div>
     </nav>
 
-    
+
 
     <section id="title-image">
         <div class="container spacing">
@@ -68,40 +68,76 @@
         </div>
     </section>
 
-    
+
 
     <section id="about">
-        <div class="container bg-info border-primary-3 rounded">
+        <div class="container bg-white border-info-3 p-3 rounded spacing">
             <div class="row">
                 <div class="col">
-                    <h2> About </h2>
+                    <h2> O nama </h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rem earum, ipsam, saepe deserunt doloribus
-                        fugiat,
-                        nesciunt rerum provident qui facere voluptas ut voluptatum iure facilis magnam non molestiae cupiditate!</p>
+            <div class="row spacing">
+                <div class="col m-2">
+                    <p>Jedinstvena aplikacija koja omogućava svim srednjoškolcima i studentima fakulteta na području
+                        Bosne i Hercegovine razmjenjivanje znanja i umrežavanja mladih na nesvakidašnje načine, kao što
+                        je držanje instrukcije i dijeljenje različitih materijala.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    
+
     <section id="about">
-        <div class="container bg-info border-primary-3 rounded spacing">
+        <div class="container bg-info border-primary-3 rounded body-spacing bottom-spacing">
             <div class="row">
                 <div class="col">
                     <h2> News </h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rem earum, ipsam, saepe deserunt doloribus
+                <div class="col spacing">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rem earum, ipsam, saepe deserunt
+                        doloribus
                         fugiat,
-                        nesciunt rerum provident qui facere voluptas ut voluptatum iure facilis magnam non molestiae cupiditate!</p>
+                        nesciunt rerum provident qui facere voluptas ut voluptatum iure facilis magnam non molestiae
+                        cupiditate!</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="login">
+        <div class="container bottom-spacing mb-5">
+            <h2>
+                Log In
+            </h2>
+            <form class=" bg-light " method="post">
+                <fieldset>
+                    <legend></legend>
+                    <div class="form-group">
+                        <span class="col-md-1  text-center"><strong>
+                                Username:</strong></span>
+                        <div class="col-md-8">
+                            <input id="fname" name="name" type="text" placeholder="eg. user123" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <span class="col-md-1  text-center"><strong>
+                                Password:</strong></span>
+                        <div class="col-md-8">
+                            <input id="lname" name="name" type="password" placeholder="..." class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary bg-info btn-lg">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
         </div>
     </section>
 
@@ -115,10 +151,10 @@
                         class="shadow p-1 bg-white rounded embed-responsive-item"></iframe>
                 </div>
                 <div class="col-sm footer text-center">
-                    Contact:<br>
+                    Kontakt:<br>
                     Email: <a href="mailto:random@example.com">random@example.com</a><br>
-                    Phone: <a href="tel:+387 00 000 000">+387 00 000 000</a><br>
-                    Address: 71000 Sarajevo, StreetName StreetNum
+                    Telefon: <a href="tel:+387 00 000 000">+387 00 000 000</a><br>
+                    Adresa: 71000 Sarajevo, StreetName StreetNum
                 </div>
             </div>
     </footer>
