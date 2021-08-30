@@ -138,3 +138,9 @@ h2{
     margin: 0 auto;
     width:80% 
 }
+
+.goal{
+    text-decoration: bold;
+    font-size: 30;
+    color: rgb(0, 126, 243);
+}
